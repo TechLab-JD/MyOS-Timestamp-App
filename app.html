@@ -1,0 +1,14 @@
+<div class="app-window" id="TimestampApp">
+  <div class="app-header"><span class="app-title">⏲️ Timestamp Converter</span><div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div></div>
+  <div class="app-content">
+    <div class="ts">
+      <div class="ts-now">Now: <b id="ts-now">—</b> <button id="ts-copy" class="ts-mini">copy</button></div>
+      <label class="ts-f"><span>Unix timestamp</span><input id="ts-epoch" spellcheck="false" placeholder="1700000000"><small id="ts-unit">seconds</small></label>
+      <div id="ts-fromepoch" class="ts-out"></div>
+      <label class="ts-f"><span>Date &amp; time</span><input id="ts-date" type="datetime-local"></label>
+      <div id="ts-fromdate" class="ts-out"></div>
+      <label class="ts-utc"><input id="ts-utcchk" type="checkbox"> show dates in UTC</label>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>

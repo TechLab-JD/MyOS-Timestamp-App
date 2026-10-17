@@ -1,0 +1,8 @@
+.ts{display:flex;flex-direction:column;gap:11px;height:100%}
+.ts-now{font-size:.85rem}.ts-now b{font-family:ui-monospace,monospace}
+.ts-mini{font-size:.68rem;padding:2px 7px;border:0;border-radius:5px;background:var(--accent2,#7f8c8d);color:#fff;cursor:pointer}
+.ts-f{display:flex;flex-direction:column;gap:3px;font-size:.74rem;font-weight:700;letter-spacing:.4px;opacity:.75;text-transform:uppercase}
+.ts-f input{padding:10px;border:1px solid var(--muted-bg,#444);border-radius:8px;background:var(--surface,#1e1e1e);color:var(--text,#eee);font-family:ui-monospace,monospace;text-transform:none}
+.ts-f small{opacity:.6;font-weight:400;text-transform:none;letter-spacing:0}
+.ts-out{font-size:.86rem;color:var(--text,#eee);min-height:1.1rem;font-family:ui-monospace,monospace;opacity:.9}
+.ts-utc{font-size:.8rem;display:flex;gap:6px;align-items:center;margin-top:auto}
